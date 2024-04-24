@@ -54,7 +54,7 @@ function onCardClick(e){
 
                 const allCardsNotMatched = document.querySelectorAll('.card:not(.matched)');
                 if (allCardsNotMatched.lenght == 0){
-                    // Le joueur à gagné
+                    // Le joueur à gagné.
                     alert("Bravo, vous avez gagné");
                 }
             }
